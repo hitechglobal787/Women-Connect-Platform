@@ -1,0 +1,21 @@
+from fastapi import APIRouter
+from pydantic import BaseModel
+
+router = APIRouter(prefix="/reports", tags=["Reports"])
+
+class Report(BaseModel):
+    id: int
+    description: str
+    category: str
+    location: str
+
+fake_reports = []
+
+@router.post("/submit")
+def submit_report(report: Report):
+    fake_reports.append(report)
+    return {"message": "Report submitted successfully", "report": report}
+
+@router.get("/")
+def get_reports():
+    return {"reports": fake_reports}

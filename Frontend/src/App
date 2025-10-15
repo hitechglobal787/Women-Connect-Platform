@@ -1,0 +1,29 @@
+import React, { useState } from "react";
+
+function App() {
+  const [message, setMessage] = useState("Loading...");
+
+  React.useEffect(() => {
+    fetch("https://women-connect-platform-backend.onrender.com/")
+      .then((res) => res.json())
+      .then((data) => setMessage(data.message))
+      .catch(() => setMessage("Backend not connected yet"));
+  }, []);
+
+  return (
+    <div className="min-h-screen flex flex-col items-center justify-center bg-pink-50 text-gray-800">
+      <h1 className="text-4xl font-bold mb-4 text-pink-600">
+        Women Connect Platform
+      </h1>
+      <p className="text-lg">{message}</p>
+      <button
+        className="mt-6 px-6 py-3 bg-pink-600 text-white rounded-xl hover:bg-pink-700"
+        onClick={() => window.open("https://github.com/hitechglobal787/Women-Connect-Platform")}
+      >
+        Visit GitHub Repository
+      </button>
+    </div>
+  );
+}
+
+export default App;

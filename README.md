@@ -1,31 +1,28 @@
-# Women Connect Platform
+# 🌍 SheAccess360 by Hi-Tech Global Ltd
 
-**Women Connect Platform** is a digital innovation by **Hi-Tech Global Ltd** designed to empower crisis-affected women and girls in Northeast Nigeria — starting from Maiduguri, Borno State.  
-The platform provides access to vocational training, mentorship, protection reporting, and micro-grant opportunities — fostering digital inclusion and economic resilience.
-
----
-
-## 🌍 Vision
-To leverage technology to reduce gender inequality and strengthen socio-economic inclusion for women and girls affected by crisis.
+**Empowering women and girls in crisis-affected communities through digital inclusion, AI-driven health education, and blockchain-backed livelihood empowerment.**
 
 ---
 
-## 💡 Core Features
-- **Digital Skills & TVET Hub:** Access to free and localized online and offline training courses.
-- **Micro-Grants & Business Support:** Connects users to financial opportunities and entrepreneurship mentors.
-- **Protection & GBV Reporting:** Confidential, safe, and accessible reporting mechanisms for survivors.
-- **Community Engagement:** A digital mentorship space connecting young women with successful female leaders.
+## 🧩 Overview
+
+**SheAccess360** is an open-source, AI-powered mobile and web platform designed to support **women and girls in humanitarian and conflict-affected settings**. It provides **localized health education, psychosocial support, safe GBV reporting**, and **vocational training with blockchain certification** — all accessible even in **low-connectivity environments**.
+
+Developed by **Hi-Tech Global Ltd (Nigeria)**, the solution combines **AI-driven analytics**, **community engagement**, and **privacy-by-design architecture** to promote health, resilience, and inclusion.
 
 ---
 
-## 🏗️ Tech Stack
-| Component | Technology |
-|------------|-------------|
-| Frontend | React + Tailwind CSS |
-| Backend | Python (FastAPI) |
-| Database | SQLite (for demo) / PostgreSQL (production ready) |
-| Hosting | GitHub Pages (frontend), Render / Vercel (backend) |
+## 🚀 Core Features
+
+| Module | Description |
+|--------|-------------|
+| 🩺 **Health Education** | Localized SRH, maternal, and mental health modules in Hausa and Kanuri, accessible offline. |
+| 🤖 **AI Chatbot Support** | Confidential psychosocial support and GBV reporting, with secure referral to verified services. |
+| 💼 **Vocational Training** | Blockchain-certified digital credentials to enhance employability and entrepreneurship. |
+| 📊 **Data & Analytics Dashboard** | Real-time analytics for humanitarian partners to monitor engagement and outcomes. |
+| 🌐 **Offline & Low-Bandwidth Access** | SMS/USSD and offline caching for use in remote or low-internet areas. |
 
 ---
 
-## ⚙️ Folder Structure
+## 🧠 Architecture Overview
+
